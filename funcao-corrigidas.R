@@ -1,1 +1,0 @@
-#funcoes a serem corrigidas
