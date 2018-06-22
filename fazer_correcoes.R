@@ -1,1 +1,0 @@
-#Seguem alguns codigos sobre a materia, facam as correções necessarias
