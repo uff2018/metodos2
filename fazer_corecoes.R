@@ -7,5 +7,5 @@ IC.media = function(x, conf, sigma){
   z = qnorm(conf + alfa/2)
   LI = x.barra - z*sigma/sqrt(n)
   LS = x.barra + z*sigma/sqrt(n)
-  cat("[", LI, ";", LS, "]")
+  cat("[", LI, ",", LS, "]")
 }
