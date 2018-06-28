@@ -2,10 +2,10 @@
 
 IC.media = function(x, conf, sigma){
   n = length(x)
-  x.barra = mean(x)
+  x.barra = mean(x, na.rm=TRUE)
   alfa = 1 - conf
   z = qnorm(conf + alfa/2)
   LI = x.barra - z*sigma/sqrt(n)
   LS = x.barra + z*sigma/sqrt(n)
-  cat("[", LI, ";", LS, "]")
+  cat("o limite superior é ", "[", LI, ";", LS, "]")
 }
